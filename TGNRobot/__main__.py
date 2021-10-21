@@ -74,28 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+Heya!♥️ I am ıllıllı 𝘼𝙢𝙚𝙡𝙞𝙖 ıllıllı 
+
+I am a cute and efficient group management bot :)
+
+🍁For help with bot commands and hit HELP ⚡️
+
+🍁If you are lazy you can add me to your group for taking care of it ⚡️
+
+🍁For issues with Amelia Bot you can reach out to our official Support Group ⚡️
+
+
+ (https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text=" AMELIA TO GROUP", url="t.me/TGN_Ro_bot?startgroup=true"),
     ],
-    [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
-        InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
-        ),
-    ],
+    
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
@@ -104,7 +102,7 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)"""
 
 START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
