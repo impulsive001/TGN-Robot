@@ -76,13 +76,16 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Heya!♥️ I am ıllıllı 𝘼𝙢𝙚𝙡𝙞𝙖 ıllıllı 
 
-I am a cute and efficient group management bot developed by [IMPULSIVE](tg://user?id={}) :)
+I am a cute and efficient group management bot developed by [IMPULSIVE](tg://user?id={1152197454}) :)
 
 🍁For help with bot commands and hit HELP ⚡️
 
 🍁If you are lazy you can add me to your group for taking care of it ⚡️
 
 🍁For issues with Amelia Bot you can reach out to our official Support Group ⚡️
+
+
+(https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)
 """
 
 buttons = [
@@ -99,7 +102,7 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️]"""
 
 START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
