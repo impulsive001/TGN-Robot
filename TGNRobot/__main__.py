@@ -84,8 +84,6 @@ I am a cute and efficient group management bot :)
 
 🍁For issues with Amelia Bot you can reach out to our official Support Group ⚡️
 
-
-(https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)
 """
 
 buttons = [
