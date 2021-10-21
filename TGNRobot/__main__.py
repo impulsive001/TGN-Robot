@@ -84,12 +84,14 @@ I am a cute and efficient group management bot :)
 
 🍁For issues with Amelia Bot you can reach out to our official Support Group ⚡️
 
+
+[❤️]
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=" AMELIA TO GROUP", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="ADD AMELIA TO GROUP", url="t.me/TGN_Ro_bot?startgroup=true"),
     ],
     
     [
@@ -355,7 +357,7 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [TGN Robot](t.me/TGN_Ro_bot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [Amelia](t.me/TGN_Ro_bot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -363,8 +365,9 @@ def zaid_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \n❍ Assistant @Intensified_Desire.
+             
+                 \nHere is the [💾Repository](https://github.com/impulsive001/TGN-Robot).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -392,7 +395,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I am [Robot](t.me/TGN_Ro_Bot)
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+                 \nHere is the [Source Code](https://github.com/impulsive007/TGN-Robot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -687,7 +690,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm up and running effitiently!")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
