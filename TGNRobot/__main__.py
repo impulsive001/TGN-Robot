@@ -91,11 +91,17 @@ I am a cute and efficient group management bot :)
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD AMELIA TO GROUP", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="🐣�ADD AMELIA TO GROUP🐣�", url="t.me/TGN_Ro_bot?startgroup=true"),
     ],
     
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="⚠️ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ⚠️", callback_data="help_back"),
+    ],
+    
+    [
+        InlineKeyboardButton(
+            text="⚡ꜱᴜᴘᴘᴏʀᴛ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+        ),
     ],
 ]
 
