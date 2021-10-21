@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Heya!♥️ I am ıllıllı 𝘼𝙢𝙚𝙡𝙞𝙖 ıllıllı 
 
-I am a cute and efficient group management bot :)
+I am a cute and efficient group management bot developed by [IMPULSIVE](tg://user?id={}) :)
 
 🍁For help with bot commands and hit HELP ⚡️
 
