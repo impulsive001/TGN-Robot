@@ -85,13 +85,13 @@ I am a cute and efficient group management bot :)
 🍁For issues with Amelia Bot you can reach out to our official Support Group ⚡️
 
 
-[❤️]
+[❤️](https://telegra.ph/file/47f20faeb8eeb487e67bf.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🐣�ADD AMELIA TO GROUP🐣�", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="🐣ADD AMELIA TO GROUP🐣", url="t.me/TGN_Ro_bot?startgroup=true"),
     ],
     
     [
